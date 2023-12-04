@@ -1,0 +1,46 @@
+.legend-screen{
+    padding: 0px 40px 120px;
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title{
+    padding-top: calc(160px + 2vw);
+    margin: 0px;
+    font-family: Rockwell;
+    font-weight: 400;
+    text-align: center;
+    font-size: 64px;
+}
+
+.legend-card{
+    border: 0px solid #000000;
+    width: 420px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    margin: 10px 32px;
+}
+
+.legend-card:hover{
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.8);
+}
+
+.legend-card h2{
+    text-align: center;
+    font-size: 42px;
+
+    font-family: Roboto;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.legend-img{
+    width: inherit;
+}

@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+
+.intro{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    color: black;
+    font-size: calc(16px + 4vw);
+    font-family: Rhodium Libre;
+    margin: 20vw;
+}
+
+.map-screen{
+    width: 100vw;
+    height:100vw;
+    max-height: 56.25vw;
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.map-screen h1{
+    align-self: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    color: white;
+    font-family: Zen Dots;
+    font-size: calc(16px + 2vw);
+
+    padding: 3vw;
+
+    background-color: rgba(30, 30, 30, 0.8);
+    
+    margin: 0px;
+}
+
+#kings-canyon{
+    background-image: url(../Pictures/Maps/map-kings-canyon.jpg);
+}
+
+#worlds-edge{
+    background-image: url(../Pictures/Maps/map-world-edge.jpg);
+}
+
+#party-crasher{
+    background-image: url(../Pictures/Maps/map-party-crasher.jpg);
+}

@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+
+.land-screen{
+    display: flex;
+    justify-content: center;
+    background-color: #ffd600;
+    padding: 16vh 0px;
+}
+
+.register{
+    text-align: center;
+    background-color: #BCB7B7;
+    width: calc(240px + 48vw);
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    padding: 4vw 0 8vw;
+}
+
+.register h1{
+    font-family: Teko;
+    font-size: 144px;
+    margin: 0;
+}
+
+.register h2{
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    font-size: 32px;
+}
+
+.register input{
+    font-family: Roboto;
+    font-size: 32px;
+    padding: 12px 24px;
+    width: 80%;
+    border-radius: 24px;
+    border: 0px hidden;
+}
+
+.required{
+    color: red;
+}
+
+.submitBut{
+    background-color: #5A4747;
+    color: white;
+    margin-top: 96px;
+    cursor: pointer;
+    width: 600px;
+}

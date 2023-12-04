@@ -1,0 +1,226 @@
+body{
+    background-color: #6a6969;
+}
+
+.land-screen{
+    margin-top: 6vh;
+    background-color: #ffd600;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-evenly;
+    width: 100%;
+    text-align: right;
+}
+
+.land-screen img{
+    width: 45vw;
+}
+
+.land-text{
+    width: 45vw;
+    background-color: #ffd600;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.land-screen h1{
+    font-family: Zen Dots;
+    font-size: 5vw;
+    margin: 0;
+}
+
+.land-screen p{
+    font-family: Varta;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.land-screen h2{
+    justify-self: flex-end;
+    justify-items: flex-end;
+    font-family: Unica One;
+    font-size: 1.8vw;
+    width: 100%;
+}
+
+
+.the-legends-screen{
+    margin-top: calc(96px + 1vh);
+    background-color: #A02929;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.the-legends-image{
+    align-self: flex-start;
+    width: 45vw;
+    margin-top: -2vw;
+    max-width: 95vw;
+}
+
+.the-legends-text{
+    width: 45vw;
+    text-align: right;
+    font-size: 2.8vw;
+}
+
+.the-legends-text h1{
+    color: #EBFF00;
+    margin: 2vh 0;
+    font-family: Zen Dots;
+}
+
+
+.the-legends-text p{
+    margin: 2vh 0;
+    color: white;
+    font-family: Teko;
+}
+
+
+.modes-screen{
+    margin: 80px 0px;
+    width: 100%;
+}
+
+.modes-screen h1{
+    text-align: center;
+    color: #EBFF00;
+    font-size: 54px;
+    font-family: Zen Dots;
+}
+
+.modes-items{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modes-card{
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #DFCDCD;
+    margin: 20px 40px;
+    padding: 42px 21px;
+    font-family: Sanchez;
+    text-align: center;
+}
+
+.modes-card img{
+    width: 540px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.modes-card .modes-title{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.modes-desc{
+    font-size: 21px;
+}
+
+.modes-link{
+    margin-top: 1vw;
+    font-size: 21px;
+    color: #a00000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.pc-specs-screen{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.pc-specs-screen h1{
+    text-align: center;
+    font-family: Zen Dots;
+    font-size: 54px;
+    color: #EBFF00;
+}
+
+.specs{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.specs h2{
+    font-family: Teko;
+    font-size: 80px;
+    text-align: center;
+}
+
+.requirements{
+    width: 600px;
+}
+
+.requirements li{
+    font-size: 40px;
+    font-family: Sanchez;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+
+    
+
+    .land-screen img{
+        width: 95vw;
+    }
+
+    .land-text{
+        width: 95vw;
+    }
+    
+    .land-screen h1{
+        font-size: 10vw;
+    }
+    
+    .land-screen p{
+        font-size: 3vw;
+    }
+    
+    .land-screen h2{
+        font-size: 3.6vw;
+    }
+
+
+    .the-legends-text{
+        text-align: center;
+        margin: 12px 0px;
+        width: 90vw;
+        font-size: 5vw;
+    }
+
+    .the-legends-image{
+        width: 95vw;
+    }
+
+    .land-text h1, .land-text h2, .land-text p{
+        margin: 12px 0px;
+        padding-bottom: 2vw;
+        text-align: center;
+    }
+}

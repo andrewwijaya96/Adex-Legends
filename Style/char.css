@@ -1,0 +1,81 @@
+.char-screen{
+    background-color: #f3f82b;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.char-img{
+    padding-top: 6vh;
+    width: 540px;
+    height: 800px;
+    
+}
+
+.char-profile{
+    align-self: center;
+    padding-left: 5vw;
+    padding-bottom: 4vh;
+}
+
+.char-name{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 1600;
+    font-style: italic;
+}
+
+.real-name{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 1200;
+    font-style: italic;
+}
+
+.char-quote{
+    font-family: Roboto;
+    font-size: 32px;
+    width: 540px;
+    font-weight: 500;
+}
+
+.char-desc{
+    width: 540px;
+    font-family: Roboto;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.skill-screen{
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+    padding: 8.4vh 0px;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 540px;
+    
+}
+
+.skill-img{
+    margin: 0px auto 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-desc{
+    width: 500px;
+    font-size: 21px;
+}
